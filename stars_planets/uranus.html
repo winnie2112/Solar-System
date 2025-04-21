@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uranus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-planet="uranus">
+    <div class="header-container">
+        <header>
+          <h1>Uranus</h1>
+        </header>
+      
+        <section id="sun-simulation">
+          <div class="sun-video-container">
+            <figure>
+              <video controls autoplay loop width="300">
+                <source src="../images/sun/sun_3Dmodel.mp4" type="video/mp4">
+              </video>
+              <figcaption>3D model of the Sun</figcaption>
+            </figure>
+          </div>
+        </section>
+    </div>
+
+    <section id="sun-overview">
+        <div class="image-container">
+            <!-- Image 1 -->
+            <figure>
+                <img src="../images/sun/sunspots.jpg" alt="Image 1" width="350">
+                <figcaption>Sunspots are cooler regions on the Sun caused by a concentration of magnetic field lines.<br>
+                    They appear dark because they are cooler than the surrounding areas of the Sun's surface.<br>
+                    Sunspots are often associated with solar flares and coronal mass ejections (CMEs), which can affect space weather and technology on Earth.<br>
+                    The Sun has an 11-year cycle of solar activity, with periods of high and low sunspot numbers.
+                </figcaption>
+            </figure>
+        
+            <!-- Image 2 -->
+            <figure>
+                <img src="../images/sun/sun_scale.jpg" alt="Image 2" width="350">
+                <figcaption>The Sun is about times wider than Earth and about 10 times wider than Jupiter.<br>
+                    The Sun is a nearly perfect sphere of hot plasma, with a diameter of about 1.4 million kilometers.<br>
+                </figcaption>
+            </figure>
+
+            <!-- Image 3 -->
+            <figure class="image-cycle">
+                <img id = "cycling-structure" src="../images/sun/sun_structure.jpg" alt="Structure Images" width="350">
+                <figcaption>The Sun runs by nuclear fusion, where hydrogen fuses to form helium in the Sun's core, held together by its own gravity.<br>
+                    The material leaving the corona at supersonic speeds becomes the solar wind.
+                    The Sun photosphere doesn’t have a solid surface like other rocky planets and moons.
+                    Photosphere is the first layer of the solar atmosphere. It's about 250 miles thick, with temperatures reaching about 5,500°C
+                </figcaption>
+            </figure>
+        
+            <!-- Image 4 -->
+            <figure class="image-cycle">
+                <img id="cycling-parker" src="../images/sun/nasa_parker.jpg" width="350" alt="Parker Images">
+                <figcaption>(Hover the mouse to stop an image being displayed)<br>
+                  The Parker Solar Probe is the first spacecraft to fly into the Sun's atmosphere, or corona.<br>
+                  It will help scientists understand how solar activity affects space weather and technology on Earth.<br>
+                  The probe will make several close passes of the Sun, gathering data about its magnetic fields and solar winds.
+                </figcaption>
+              </figure>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            For more detailed information, visit the <a href="https://science.nasa.gov/uranus" target="_blank">NASA Sun page</a>.
+        </p>
+        <a href="index.html">
+            <a href="../src/index.html"><button class="back-button">🔙 Back to Solar System</button></a>
+        </a>
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>

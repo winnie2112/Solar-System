@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("../images/solar-system.jpg") no-repeat center center fixed; /*Resolution 2000x1000*/
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+p {
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.sun {
+  position: absolute;
+  top: 50.1%; /* (501 / 1000) * 100 ; y = 501 */
+  left: 2%; /* (4 / 2000) * 100; x = 4 */
+  width: 320px;
+  height: 530px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.mercury {
+  position: absolute;
+  top: 54.2%; /* (542 / 1000) * 100 ; y = 542 */
+  left: 16.7%; /* (334 / 2000) * 100; x = 334 */
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.venus {
+  position: absolute;
+  top: 54.5%; /* (545 / 1000) * 100 ; y = 545 */
+  left: 24.4%; /* (488 / 2000) * 100; x = 488 */
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.earth {
+  position: absolute;
+  top: 54.2%; /* (542 / 1000) * 100 ; y = 542 */
+  left: 33.8%; /* (676 / 2000) * 100; x = 676 */
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.moon {
+  position: absolute;
+  top: 43.3%; /* (433 / 1000) * 100 ; y = 433 */
+  left: 36.65%; /* (733 / 2000) * 100; x = 733 */
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.mars {
+  position: absolute;
+  top: 54.8%; /* (548 / 1000) * 100 ; y = 548 */
+  left: 43.45%; /* (869 / 2000) * 100; x = 869 */
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.jupiter {
+  position: absolute;
+  top: 54.2%; /* (542 / 1000) * 100 ; y = 542 */
+  left: 54.65%; /* (1093 / 2000) * 100; x = 1093 */
+  width: 130px;
+  height: 130px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.saturn {
+  position: absolute;
+  top: 53.8%; /* (538 / 1000) * 100 ; y = 538 */
+  left: 70.4%; /* (1408 / 2000) * 100; x = 1408 */
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.uranus {
+  position: absolute;
+  top: 54.8%; /* (548 / 1000) * 100 ; y = 548 */
+  left: 84.4%; /* (1688 / 2000) * 100; x = 1688 */
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.neptune {
+  position: absolute;
+  top: 54.0%; /* (540 / 1000) * 100 ; y = 540 */
+  left: 94.65%; /* (1893 / 2000) * 100; x = 1893 */
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}

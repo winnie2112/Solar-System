@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Amasis MT Pro;
+  background: url("../images/tabby-star.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* align vertically center */
+  justify-content: center; /* center both in the app */
+  gap: 100px; /* space between header and video */
+  margin-top: 10px;
+}
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  color: white;
+  margin: 0;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding: 0;
+}
+
+.image-cycle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 20px;
+}

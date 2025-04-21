@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercury</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-planet="mercury">
+    <div class="header-container">
+        <header>
+          <h1>Mercury</h1>
+        </header>
+      
+        <section id="sun-simulation">
+          <div class="sun-video-container">
+            <figure>
+              <video controls autoplay loop width="300">
+                <source src="../images/mercury/false_color.mp4" type="video/mp4">
+              </video>
+              <figcaption>Color map of Mercury's surface -  MESSENGER Wide Angle Camera (WAC)</figcaption>
+            </figure>
+          </div>
+        </section>
+    </div>
+
+    <section id="mercury-overview">
+      <div class="image-container" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; align-items: flex-start; max-width: 100%; padding: 0px;">
+        <figure style="flex: 1 1 350px; max-width: 350px; margin: 0; text-align: center; align-self: flex-start;">
+          <img id="cycling-surface" src="../images/mercury/mosaic_mercury_surface.jpg" alt="Structure Images" width="300">
+          <figcaption>
+            Mercury is the smallest planet in our solar system and nearest to the Sun, which is 0.4 astronomical units away.<br>
+            With a radius of 2440 kilometers, Mercury is a little more than 1/3 the width of Earth..<br>
+            Mercury is the second densest planet, after Earth. It has a large metallic core with a radius of about 85% of the planet's radius.<br>
+          </figcaption>
+        </figure>
+    
+        <figure style="flex: 1 1 350px; max-width: 350px; margin: 0; text-align: center; align-self: flex-start;">
+          <img src="../images/mercury/mercury_craters.jpg" alt="Image 2" width="350">
+          <figcaption>
+            Mercury's surface resembles that of Earth's Moon, scarred by many impact craters resulting from collisions with meteoroids and comets.<br>
+            NASA's MESSENGER spacecraft gave the enhanced color mosaic of Mercury's crafters Munch, Sander, and Poe, which are located in the northwest portion of the Caloris basin.<br>
+            The volcanic plains appear orange. All three craters are superposed on these volcanic plains and have excavated low-reflectance material, displayed in blue.
+          </figcaption>
+        </figure>
+    
+        <!-- Figure 3 -->
+        <figure style="flex: 1 1 700px; max-width: 700px; margin: 0; text-align: center; align-self: flex-start;">
+          <div style="display: flex; gap: 20px; justify-content: center;">
+            <video controls autoplay loop muted width="340" style="max-width: 100%; vertical-align: top;">
+              <source src="../images/mercury/mercury_orbit_simulation.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img src="../images/mercury/mercury_orbit_simulation.gif" alt="Mercury Orbit Simulation" width="340" style="max-width: 100%; vertical-align: top;">
+          </div>
+    
+          <figcaption style="color: white; font-size: 0.9em; margin-top: 5px;">
+            Mercury's highly eccentric, egg-shaped orbit takes the planet as close as 47 million kilometers (perihelion) and as far as 70 million kilometers (aphelion) from the Sun.<br>
+            Mercury takes 88 Earth days to complete its orbit, slowing down when it is farther away from the Sun and accelerating when it draws closer.<br>
+            Mercury's orbit is also the first proof of Einstein's theory of general relativity, which states masses curve space-time and other objects travel along that curve.<br>
+            Because Mercury is so close to the Sun, its orbit is affected more strongly by the Sun’s curved space-time than other planets, accounting for the extra 43 seconds of arc per century in the precession of Mercury’s perihelion.
+          </figcaption>
+        </figure>
+    
+      </div>
+    </section>
+    
+    <footer>
+        <p>
+            For more detailed information, visit the <a href="https://science.nasa.gov/mercury" target="_blank">NASA Mercury</a>.
+            <a href="https://www.youtube.com/watch?v=0KBjnNuhRHs&t=1s&ab_channel=NationalGeographic" target="_blank">Mercury Orbital Simulation</a>
+        </p>
+        <a href="index.html">
+            <a href="../src/index.html"><button class="back-button">🔙 Back to Solar System</button></a>
+        </a>
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
